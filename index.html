@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Live Earthquakes</title>
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+		<link href="style.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<header>
+  <h2>Live Earthquakes</h2>
+</header>
+		<!-- create div for the map and define its height and width here -->
+		<div class="row">
+  		<div class="column">
+				<div id='map2'></div>
+			</div>
+  		<div class="column">
+				<div id= 'info2'>
+					<div id= 'space'>
+						<br>
+						<h2>Current Earthquakes</h2>
+						<p>This map shows all earthquakes that have occurred within the last minute.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+  		<div class="column">
+				<div id='map1'></div>
+			</div>
+  		<div class="column">
+				<div id= 'info1'>
+						<div id= 'space'>
+							<br>
+						<h2>Earthquakes with a Magnatude of 4.5 and Greater <br>
+							from the last Seven Days</h2>
+						<p>This map shows all earthquakes with a magnitude of 4.5 and greater. It updates every seven days.</p>
+						<br>
+						<br>
+						<br>
+							<p>*All data is provide from the <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank">U.S.G.S.<a/></p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+		  <p>©Dave Nilsen 11/2019</p>
+		</footer>
+
+		<!-- JS code for the map goes here -->
+		<script src="javascript2.js"></script>
+		<script src="javascript.js"></script>
+	</body>
+</html>

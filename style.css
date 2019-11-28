@@ -1,0 +1,95 @@
+/* map 2 */
+	#map1 {
+		height: 95vh;
+		width: 50vw;
+		padding-top: 50px;
+		margin: 0px 0px 50px 0px;
+		float: left;
+	}
+	/* map 2  */
+	 #info1 {
+		height: 95vh;
+		width: 30vw;
+		margin: 5px;
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-left: 80px;
+		float: left;
+		background-color: #000000;
+
+	}
+	/* map 1 */
+	#map2 {
+		height: 95vh;
+		width: 50vw;
+		padding-top: 50px;
+		float: left;
+	}
+	/* map 1 */
+	#info2 {
+		height: 95vh;
+		width: 30vw;
+		margin: 5px;
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-left: 80px;
+		float: left;
+		background-color: #000000;
+	}
+
+	#space {
+		height: 30vh;
+		background-color: #bdbdbd;
+		margin: 200px 0px 0px 0px
+	}
+
+	body {
+	  background-color: black;
+	}
+
+	h2 {
+		text-align: center;
+		color: black
+
+	}
+
+	h3 {
+		text-align: center;
+		color: black
+
+	}
+
+	p {
+		color: #000000;
+	  text-align: center;
+}
+
+	header {
+  background-color: #bdbdbd;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #000000;
+}
+
+/* Style the footer */
+	footer {
+  background-color: #bdbdbd;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+}
+
+	/* Create three equal columns that floats next to each other */
+	 .column.side {
+	  float: left;
+	  width: 40%;
+	  /* padding: 15px; */
+	}
+
+	/* Clear floats after the columns */
+	 .row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
